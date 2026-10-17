@@ -1,0 +1,14 @@
+name: YSMSync
+version: '1.0.1-1.19.4-port'
+main: moe.ysmsync.YSMSyncMain
+api-version: '1.19'
+authors: [ chatgpt, memzgbl ]
+description: .
+depend: [ ProtocolLib ]
+softdepend: [ Images ]
+folia-supported: true
+
+permissions:
+  ysmsync.commands.reloadmodels:
+    description: Allows reloading YSMSync YSM models
+    default: op

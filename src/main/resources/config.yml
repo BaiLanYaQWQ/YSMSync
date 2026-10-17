@@ -1,0 +1,25 @@
+# Model synchronization rate limiting
+model-sync:
+  # Per-player bandwidth limit in Mbps (0 = unlimited)
+  per-player-rate-limit-mbps: 8.0
+  # Global total bandwidth limit in Mbps across all players (0 = unlimited)
+  global-rate-limit-mbps: 40.0
+
+# Default model/texture for auto-correction when a player's selection is invalid
+model-defaults:
+  # Model ID to fall back to (must be a loaded model)
+  model-id: "default"
+  # Texture name to fall back to (must exist on the model)
+  texture: "default"
+
+# Web model portal. Put this behind a Baota HTTPS reverse proxy before exposing
+# it to the public Internet.
+web-portal:
+  enabled: true
+  host: "0.0.0.0"
+  port: 25584
+  sync-check-interval-seconds: 30
+  max-upload-bytes: 16777216
+  # Accounts allowed to administer (including deleting) portal-uploaded models.
+  admin-users:
+    - admin

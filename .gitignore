@@ -1,0 +1,11 @@
+# Local server data
+plugins/
+logs/
+*.log
+*.db
+*.sqlite
+
+# Gradle and local build output
+.gradle/
+.kotlin/
+build/

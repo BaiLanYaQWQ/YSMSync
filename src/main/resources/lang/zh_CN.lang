@@ -1,0 +1,12 @@
+ysmsync.command.no_permission=<#cdd6f4>[</#cdd6f4><#89dceb>YSMSync</#89dceb><#cdd6f4>]</#cdd6f4><#f38ba8>你没有权限执行这个命令
+ysmsync.command.help=<#cdd6f4>[</#cdd6f4><#89dceb>YSMSync</#89dceb><#cdd6f4>]</#cdd6f4>可用子命令: <#89dceb>/ysmsync reload</#89dceb> - 重载模型 | <#89dceb>/ysmsync setmodel</#89dceb> - 设置玩家模型
+ysmsync.command.unknown_subcommand=<#cdd6f4>[</#cdd6f4><#89dceb>YSMSync</#89dceb><#cdd6f4>]</#cdd6f4><#f38ba8>未知子命令, 使用 <#89dceb>/ysmsync</#89dceb><#f38ba8> 查看帮助
+ysmsync.reload_models.started=<#cdd6f4>[</#cdd6f4><#89dceb>YSMSync</#89dceb><#cdd6f4>]</#cdd6f4>正在重载模型...
+ysmsync.reload_models.success=<#cdd6f4>[</#cdd6f4><#89dceb>YSMSync</#89dceb><#cdd6f4>]</#cdd6f4><#a6e3a1>模型重载完成, 当前加载 <count> 个模型, 耗时 <time_ms> ms
+ysmsync.reload_models.failed=<#cdd6f4>[</#cdd6f4><#89dceb>YSMSync</#89dceb><#cdd6f4>]</#cdd6f4><#f38ba8>模型重载失败: <reason>
+ysmsync.set_model.usage=<#cdd6f4>[</#cdd6f4><#89dceb>YSMSync</#89dceb><#cdd6f4>]</#cdd6f4><#f38ba8>用法: /ysmsync setmodel <玩家> <模型ID> [材质]
+ysmsync.set_model.player_not_found=<#cdd6f4>[</#cdd6f4><#89dceb>YSMSync</#89dceb><#cdd6f4>]</#cdd6f4><#f38ba8>找不到玩家: <player>
+ysmsync.set_model.model_not_found=<#cdd6f4>[</#cdd6f4><#89dceb>YSMSync</#89dceb><#cdd6f4>]</#cdd6f4><#f38ba8>找不到模型: <model>
+ysmsync.set_model.texture_not_found=<#cdd6f4>[</#cdd6f4><#89dceb>YSMSync</#89dceb><#cdd6f4>]</#cdd6f4><#f38ba8>模型 <model> 找不到材质: <texture>
+ysmsync.set_model.player_no_data=<#cdd6f4>[</#cdd6f4><#89dceb>YSMSync</#89dceb><#cdd6f4>]</#cdd6f4><#f38ba8>玩家 <player> 数据未加载
+ysmsync.set_model.success=<#cdd6f4>[</#cdd6f4><#89dceb>YSMSync</#89dceb><#cdd6f4>]</#cdd6f4><#a6e3a1>已将 <player> 的模型设置为 <model> / <texture>
