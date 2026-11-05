@@ -200,3 +200,4 @@ gradle build --no-daemon --console=plain
 - 原插件： [memzgbl/ysmsync](https://github.com/memzgbl/ysmsync)
 - 协议与模型格式参考： [ModernYSM](https://github.com/hongshaoluobotou/ModernYSM)（OpenYSM）
 - 网页界面设计语言参考：终末地（Arknights: Endfield）风格规范
+- ModernYSM 26.1.2-26.3移植: https://github.com/BaiLanYaQWQ/ModernYSM
